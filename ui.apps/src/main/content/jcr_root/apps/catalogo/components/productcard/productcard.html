@@ -1,0 +1,6 @@
+<div class="cmp-productcard" data-sly-test.hasName="${properties.name}">
+  <h3>${properties.name}</h3>
+  <p data-sly-test="${properties.sku}">SKU: ${properties.sku}</p>
+  <p data-sly-test="${properties.price}">Preço: ${properties.price}</p>
+</div>
+<p data-sly-test="${!hasName && wcmmode.edit}">Product Card: preencha o nome</p>
